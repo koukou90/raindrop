@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.idea/
+venv/
+data/
+out/
+paper/
+.claude/
+skills-lock.json
+docs/
