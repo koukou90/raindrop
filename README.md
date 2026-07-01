@@ -127,15 +127,15 @@ If this command reports a missing local module, please check that all source fil
 After placing preprocessed data in the expected directory structure, train and evaluate TSFNet with:
 
 ```bash
-python run.py ^
-  --model_name TripleStreamV3 ^
-  --v3_recipe t5_boost ^
-  --site_name W2127_Haichaoba ^
-  --data_dir data ^
-  --seq_len 10 ^
-  --pred_len 5 ^
-  --batch_size 64 ^
-  --epochs 80 ^
+python run.py 
+  --model_name TripleStreamV3 
+  --v3_recipe t5_boost 
+  --site_name W2127_Haichaoba 
+  --data_dir data 
+  --seq_len 10 
+  --pred_len 5 
+  --batch_size 64 
+  --epochs 80 
   --out_path out
 ```
 
@@ -163,4 +163,4 @@ Exact numerical reproduction of the manuscript results requires the private obse
 
 ## License
 
-Please add an open-source license if you want to regulate third-party use of the code. If no license file is included, reuse rights may be unclear to external users.
+None
